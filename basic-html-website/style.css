@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(221, 220, 211);
+    background-position: center;
+    border-radius: 0.5%;
+    opacity: 0.975;
+    margin: 5% 12.5% 5% 12.5%;
+    padding: 0% 2.5% 2.5% 2.5%;
+    
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(78, 77, 77);
+    font-weight: normal;
+}
+
+p.one {
+    border-style: solid;
+    border-width: small;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0.5%;
+}
+
+header {
+    background-image: linear-gradient(rgb(245, 196, 107), rgba(78,77,77, 0));
+}
+
+header {
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+html {
+    background-image: url("Images for Reference/malenia-cora.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* unvisited link */
+a:link {
+    color:rgb(56, 55, 51);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color:rgb(207, 236, 209);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color:rgb(116, 112, 112);
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color:rgb(241, 102, 234);
+    text-decoration: underline;
+}
+
+/* When setting the style for several link states, there are some order rules:
+
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover */
+
+ul.one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(245, 196, 107),
+     rgba(78,77,77, 0))
+}
+
+li.one {
+    float: left;
+}
+
+li.one a {
+    display: block;
+    text-align: center;
+    padding: 1em 1em;
+    color: black;
+}
+
+li.one a:hover:not(.active) {
+        color:rgb(116, 112, 112);
+        text-decoration: underline;
+}
+
+.active {
+    background-image:radial-gradient(rgb(240, 183, 77),
+    rgba(78,77,77, 0));
+
+}
+
+a.active {
+    color:rgb(116, 119, 115);
+    text-decoration: underline;
+}
+
+ul.one {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top-left-radius: 0.5%;
+    border-top-right-radius: 0.5%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(245, 196, 107),
+     rgba(78,77,77, 0));
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    color: rgb(116, 112, 112);
+    text-decoration: underline;
+}
+
+ul.topnav li a.active {
+    color:rgb(116, 119, 115);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li {
+        float:none;
+    }
+}
+
+
