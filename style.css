@@ -24,6 +24,16 @@ h1 {
     font-weight: normal;
 }
 
+h3.one {
+    color:rgb(71, 73, 75);
+    font-weight: normal;
+}
+
+h4.one {
+    color:rgb(139, 143, 143);
+    font-weight: normal;
+}
+
 p.one {
     border-style: solid;
     border-width: small;
@@ -31,6 +41,15 @@ p.one {
     margin-left: 15%;
     margin-right: 15%;
     padding: 0.5%;
+}
+
+p.two {
+    text-indent: 1em;
+    margin: 1;
+}
+
+p.uppercase {
+    text-transform: uppercase;
 }
 
 header {
@@ -88,14 +107,14 @@ a:active {
 a:hover MUST come after a:link and a:visited
 a:active MUST come after a:hover */
 
-ul.one {
+/*ul.one {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-image: linear-gradient(rgb(245, 196, 107),
      rgba(78,77,77, 0))
-}
+}*/
 
 li.one {
     float: left;
@@ -114,8 +133,11 @@ li.one a:hover:not(.active) {
 }
 
 .active {
-    background-image:radial-gradient(rgb(240, 183, 77),
+    background-image:linear-gradient(rgba(237, 171, 247, 0.9),
     rgba(78,77,77, 0));
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin: 0%;
 
 }
 
@@ -140,8 +162,10 @@ ul.topnav {
     margin-right: -2.5%;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient(rgb(245, 196, 107),
+    background-image: linear-gradient(rgb(245, 202, 227),
      rgba(78,77,77, 0));
+     border-bottom-left-radius: 5%;
+     border-bottom-right-radius: 5%;
 }
 
 ul.topnav li {
