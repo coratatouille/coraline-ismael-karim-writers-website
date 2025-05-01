@@ -3,7 +3,7 @@ body {
     background-position: center;
     border-radius: 0.5%;
     opacity: 0.975;
-    margin: 5% 20% 5% 20%;
+    margin: 5% 12.5% 5% 12.5%;
     padding: 0% 2.5% 2.5% 2.5%;
     
 }
@@ -114,7 +114,7 @@ li.one a:hover:not(.active) {
 }
 
 .active {
-    background-image:linear-gradient(rgb(243, 185, 77),
+    background-image:radial-gradient(rgb(240, 183, 77),
     rgba(78,77,77, 0));
 
 }
@@ -136,8 +136,8 @@ ul.one {
 
 ul.topnav {
     list-style-type: none;
-    margin-left: -5%;
-    margin-right: -5%;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
     padding: 0;
     overflow: hidden;
     background-image: linear-gradient(rgb(245, 196, 107),
