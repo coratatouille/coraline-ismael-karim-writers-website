@@ -11,6 +11,7 @@ body {
 * {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -48,8 +49,19 @@ p.two {
     margin: 1;
 }
 
+p.three {
+    border-left-style: solid;
+    border-color:rgb(168, 170, 172);
+}
+
 p.uppercase {
     text-transform: uppercase;
+}
+
+img.one {
+    float: left;
+    width:25%;
+    margin-right: 1em;
 }
 
 header {
@@ -138,6 +150,11 @@ li.one a:hover:not(.active) {
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
     margin: 0%;
+    border-left-color:rgba(241, 208, 247, 0.9);
+    border-right-color:rgba(241, 208, 247, 0.9);
+    border-left-style: solid;
+    border-right-style: solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -162,8 +179,7 @@ ul.topnav {
     margin-right: -2.5%;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient(rgb(245, 202, 227),
-     rgba(78,77,77, 0));
+    background-color: rgb(245, 202, 227);
      border-bottom-left-radius: 5%;
      border-bottom-right-radius: 5%;
 }
@@ -174,10 +190,11 @@ ul.topnav li {
 
 ul.topnav li a {
     display: block;
-    color: black;
+    color: rgb(56, 55, 55);
     text-align: center;
     padding: 1em 1em;
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul.topnav li a:hover:not(.active) {
@@ -196,4 +213,35 @@ ul.topnav li a.active {
     }
 }
 
+/* Create columns that float next to each other */
+.column {
+    float: center;
+    width: 100%;
+    padding: 1em;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 40em) {
+    img.one {
+        width: 25%;
+    }
+}
+
+.scaleB {
+    width: 25%;
+}
+.scale { 
+    object-fit: scale-down; 
+}
+
+.clearfix {
+    overflow: auto;
+}
 
