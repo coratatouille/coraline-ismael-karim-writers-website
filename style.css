@@ -292,3 +292,18 @@ input[type=submit]:hover {
 .left {
     float: left;
 }
+
+/* <form action="/action_page.php">
+                        
+                    <div class="container">
+                        <h2 class="one"> Subscribe to my Blog!</h2>
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email Address" name="mail" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                        </label>
+                        <input type="submit" value="Subscribe">
+                    </div>
+
+                </form>
+*/
