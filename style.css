@@ -25,6 +25,12 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    color:#313030;
+    font-weight: normal;
+}
+
 h3.one {
     color:rgb(71, 73, 75);
     font-weight: normal;
