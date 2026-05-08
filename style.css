@@ -49,6 +49,14 @@ p {
     
 }
 
+p.black {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    box-sizing: border-box;
+    text-indent: 1em;
+}
+
 p.white {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
