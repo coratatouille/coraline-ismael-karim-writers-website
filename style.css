@@ -73,6 +73,13 @@ i.white {
     box-sizing: border-box;
 }
 
+b.white {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 1.5rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
